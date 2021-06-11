@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script src="/jquery.js"></script>
+    <script src="/Net.js"></script>
+    <script src="/Ui.js"></script>
+    <script src="/Music.js"></script>
+    <script src="/Main.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="wszystko">
+      <div id="setting">
+        <img class="mojealbumy" src="player/list.png" />
+        <img class="upload" src="player/upload.png" />
+      </div>
+      <div id="album"></div>
+      <div id="napis">
+        <h1>Mp3 player</h1>
+      </div>
+      <div id="tabelka"></div>
+      <audio id="audio" controls>
+        <source src="" id="audio_src" type="audio/mp3" />
+      </audio>
+      <div id="pusc">
+        <div id="tekst"></div>
+        <div id="flex">
+          <div class="mniejsze">
+            <img class="prevs" src="player/prev.png" />
+          </div>
+          <div class="mniejsze">
+            <img class="plays" src="player/plays.png" />
+            <img class="stops" src="player/stop.png" />
+          </div>
+          <div class="mniejsze">
+            <img id="nexts" src="player/next.png" />
+          </div>
+        </div>
+        <div id="pasekitekst">
+          <div id="pierwszy">0:00</div>
+          <div id="pasek">
+            <div id="paseczek"></div>
+          </div>
+          <div id="drugi">0:00</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
